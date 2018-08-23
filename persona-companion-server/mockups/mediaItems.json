@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "title": "The Book 1",
+        "mediaType": "Book",
+        "contributionPoints": 1,
+        "length": 250,
+        "currentProgress": 150
+    },
+    {
+        "id": 2,
+        "title": "The Book 2",
+        "mediaType": "Book",
+        "contributionPoints": 1,
+        "length": 200,
+        "currentProgress": 100
+    },
+    {
+        "id": 1,
+        "title": "The Movie 1",
+        "mediaType": "Movie",
+        "contributionPoints": 1,
+        "length": 100,
+        "currentProgress": 75
+    },
+    {
+        "id": 1,
+        "title": "The Show 1",
+        "mediaType": "TV Show",
+        "contributionPoints": 1,
+        "length": 24,
+        "currentProgress": 24
+    }
+]

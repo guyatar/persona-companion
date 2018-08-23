@@ -1,0 +1,21 @@
+{
+  "name": "persona-companion-server",
+  "version": "1.0.0",
+  "description": "REST API Service for the persona companion App",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "Persona",
+    "Companion",
+    "Stats",
+    "Daily"
+  ],
+  "author": "Guy",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}

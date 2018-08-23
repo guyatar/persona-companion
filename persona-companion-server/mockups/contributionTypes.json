@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Minor",
+        "points": 1
+    },
+    {
+        "name": "Greatly",
+        "points": 2
+    },
+    {
+        "name": "Significantly",
+        "points": 3
+    }
+]

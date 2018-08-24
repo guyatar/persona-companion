@@ -1,0 +1,19 @@
+.progress-bar {
+    background-color: white;
+}
+
+.progress-bar-fill {
+    background-color: #92001c;
+    height: 30px;
+}
+
+button {
+    font-size: 16px;
+}
+
+.row {
+    padding-bottom: 5px;
+    padding-top: 5px;
+    display: block;
+    width: 100%;
+}

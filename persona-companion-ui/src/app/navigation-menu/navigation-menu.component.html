@@ -1,0 +1,18 @@
+<div class="menu" [class.active]="isShowMenu">
+  <div class="menu-header">
+    <input type="image" class="menu-button" (click)="toggleMenu()" src="https://image.flaticon.com/icons/svg/54/54630.svg">
+  </div>
+  <div class="menu-list">
+    <ul *ngIf="isShowMenu">
+      <li>
+        <a [routerLink]="['/']">Home</a>
+      </li>
+      <li>
+        <a [routerLink]="['/media']">Media</a>
+      </li>
+      <li>
+        <a [routerLink]="['/social-stats']">Social Stats</a>
+      </li>
+    </ul>
+  </div>
+</div>

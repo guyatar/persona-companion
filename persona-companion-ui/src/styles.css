@@ -1,0 +1,34 @@
+/* You can add global styles to this file, and also import other style files */
+
+body {
+    background-color: skyblue;
+    margin: 0 !important;
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+select, option, button, input[type="text"], input[type="number"], input[type="button"], input[type="submit"] {
+    border: 1px solid #670719;
+    font-weight: bold;
+    color: #92001c;
+    font-size: 24px;
+}
+
+select, option, button, input[type="text"], input[type="number"], input[type="button"], input[type="submit"] {
+    background-color: white;
+    background-color: #92001c;
+    color: white;
+}
+
+select:hover, option:hover, button:hover, input[type="button"]:hover, input[type="submit"]:hover {
+    background-color: #670719;
+    cursor: pointer;
+}
+
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+}

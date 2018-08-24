@@ -1,0 +1,21 @@
+label {
+    text-shadow: -5px 5px 1px black;
+    font-family: Tahoma;
+    font-size: 54px;
+    color: white;
+    display: block;
+}
+
+.rotate-container {
+    padding-left: 50px;
+    max-width: 0%;
+}
+
+.rotate {
+    /*background-color: royalblue;*/
+    max-width: 100%;
+}
+
+div.deg-20 {
+    transform: rotate(-20deg);
+}

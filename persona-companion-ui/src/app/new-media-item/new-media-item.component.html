@@ -1,0 +1,41 @@
+<div class="rotate-container2 skew20">
+  <div class="deg2">
+    <form>
+      <div class="row">
+        <label>Title:</label>
+        <input type="text">
+      </div>
+      <div class="row">
+        <label>Media Type:</label>
+        <select>
+          <option *ngFor="let mediaType of mediaTypes">
+            {{mediaType.name}}
+          </option>
+        </select>
+      </div>
+      <div class="row">
+        <label>Social Type:</label>
+        <select>
+          <option *ngFor="let socialStatType of socialStatTypes">
+            {{socialStatType.name}}
+          </option>
+        </select>
+      </div>
+      <div class="row">
+        <label>Contribution:</label>
+        <select>
+          <option *ngFor="let contributionType of contributionTypes">
+            {{contributionType.name}}
+          </option>
+        </select>
+      </div>
+      <div class="row">
+        <label>Length:</label>
+        <input type="number">
+      </div>
+      <div class="row">
+        <input type="submit" value="Add">
+      </div>
+    </form>
+  </div>
+</div>

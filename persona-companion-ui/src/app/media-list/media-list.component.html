@@ -1,0 +1,18 @@
+<div class="rotate-container center skew-20">
+  <div class="rotate deg">
+    <div class="tab-controller">
+      <div class="tab-item" [class.active]="!isCompleted" (click)="toggleIsCompleted()">In Progress</div>
+      <div class="tab-item" [class.active]="isCompleted" (click)="toggleIsCompleted()">Completed</div>
+    </div>
+    <div class="tab-content">
+      <ul>
+        <li *ngFor="let mediaItem of mediaItems">
+          <app-media-item [mediaItem]="mediaItem"></app-media-item>
+        </li>
+      </ul>
+      <div class="inputs-list">
+        <input *ngIf="!isCompleted" type="button" value="+" [routerLink]="['new']">
+      </div>
+    </div>
+  </div>
+</div>

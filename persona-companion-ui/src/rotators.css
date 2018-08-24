@@ -1,0 +1,42 @@
+.skew20 {
+    transform: skewX(20deg);
+}
+
+.skew-20 {
+    transform: skewX(-20deg);
+}
+
+.rotate-container.center {
+    margin: auto;
+}
+
+.rotate-container {
+    background-color: black;
+    perspective: 600px;
+    max-width: 600px;
+    padding: 5px;
+}
+
+.rotate-container2 {
+    background-color: black;
+    perspective: 600px;
+    max-width: 600px;
+    margin: auto;
+    padding: 5px;
+}
+
+.rotate {
+    display: inline-block;
+    max-width: 100%;
+    width: 100%;
+}
+
+div.deg {
+    transform: rotateY(30deg) skewX(20deg);
+    background-color: crimson;
+}
+
+div.deg2 {
+    transform: rotateY(-15deg) rotateZ(-5deg) skewX(-20deg);
+    background-color: crimson;
+}

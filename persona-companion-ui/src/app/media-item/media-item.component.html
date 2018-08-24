@@ -1,0 +1,9 @@
+<div class="row">
+  {{mediaItem.title}} ({{mediaItem.mediaType}})
+  <br/> {{mediaItem.currentProgress}} out of {{mediaItem.length}}
+  <button *ngIf="!isCompleted()" (click)="increaseProgress()">+</button>
+  <button *ngIf="!isCompleted()" (click)="decreaseProgress()">-</button>
+</div>
+<div class="progress-bar">
+  <div [style.width]="getProgressPercentage()" class="progress-bar-fill"></div>
+</div>

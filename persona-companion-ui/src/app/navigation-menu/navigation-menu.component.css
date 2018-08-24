@@ -1,0 +1,60 @@
+.menu {
+    background-color: black;
+    position: fixed;
+    color: white;
+    z-index: 998;
+    top: 0;
+}
+
+.menu.active {
+    height: 100%;
+    width: 30%;
+}
+
+.menu-button:hover {
+    background-color: red;
+}
+
+.menu-button:focus {
+    outline: 0px;
+}
+
+.menu-button {
+    background-color: crimson;
+    border-radius: 9px;
+    z-index: 999;
+    height: 56px;
+    width: 56px;
+    top: 0;
+}
+
+.menu-header {
+    padding: 5px;
+}
+
+.menu-list {
+    position: relative;
+}
+
+li {
+    border-bottom: 1px solid crimson;
+    color: crimson;
+    padding: 5px;
+}
+
+li:hover {
+    background-color: crimson;
+    color: black !important;
+    cursor: pointer;
+}
+
+li a {
+    color: crimson;
+    font-size: 26px;
+    display: block;
+    width: 100%;
+}
+
+li:hover a {
+    color: black;
+}
